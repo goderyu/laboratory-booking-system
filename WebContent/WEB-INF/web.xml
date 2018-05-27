@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
+		id="WebApp_ID" version="3.1">
+         
+         
+		<display-name>计科1504欢迎高平老师的验收</display-name>
+		<description>
+			计科1504实验室安排预约系统
+		</description>
+		<welcome-file-list>
+			<welcome-file>index.html</welcome-file>
+		</welcome-file-list>
+         
+         
+         
+         
+         
+         <servlet>
+         	<servlet-name>SubmitServlet</servlet-name>
+         	<servlet-class>
+         		servlet.SubmitServlet
+         	</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>SubmitServlet</servlet-name>
+         	<url-pattern>/group3/SubmitServlet</url-pattern>
+         </servlet-mapping>
+         
+		<servlet>
+    		<servlet-name>ImportServlet</servlet-name>
+			<servlet-class>
+				servlet.ImportServlet
+			</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>ImportServlet</servlet-name>
+			<url-pattern>/group8/ImportServlet</url-pattern>
+		</servlet-mapping>
+		<servlet>
+			<servlet-name>ToExcel</servlet-name>
+			<servlet-class>excel.Toexcel</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>ToExcel</servlet-name>
+			<url-pattern>/group7/ToExcel</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+			<servlet-name>CheckServlet</servlet-name>
+			<servlet-class>servlet.CheckServlet</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>CheckServlet</servlet-name>
+			<url-pattern>/group1/CheckServlet</url-pattern>
+		</servlet-mapping>
+		<servlet>
+			<servlet-name>TomysqlServlet</servlet-name>
+			<servlet-class>servlet.Tomysqlservlet</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>TomysqlServlet</servlet-name>
+			<url-pattern>/group5/TomysqlServlet</url-pattern>
+		</servlet-mapping>
+		<servlet>
+			<servlet-name>ValdateRegistration</servlet-name>
+			<servlet-class>servlet.ValdateRegistrationServlet</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>ValdateRegistration</servlet-name>
+			<url-pattern>/group1/ValdateRegistration</url-pattern>
+		</servlet-mapping>
+		
+		
+		
+		
+		
+</web-app>

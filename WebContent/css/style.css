@@ -1,0 +1,66 @@
+* {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+body {
+  background-color: #252525;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.text {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+.text, a {
+  color: #f4f4f4;
+  font-weight: 100;
+}
+
+svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.textTime {
+  fill: #f4f4f4;
+  text-anchor: middle;
+  alignment-baseline: middle;
+  font-size: 100%;
+  font-weight: 100;
+}
+
+.outerRing {
+  fill: none;
+  stroke: #f4f4f4;
+  stroke-width: 2px;
+  stroke-dasharray: 4px;
+  opacity: .5;
+}
+
+.primCircle {
+  fill: #252525;
+  stroke: #f4f4f4;
+  stroke-width: 10px;
+}
+
+.secCircle {
+  fill: #45d9fd;
+  stroke: #252525;
+  stroke-width: 1px;
+}
+
+.spike {
+  stroke: #f4f4f4;
+  stroke-width: 2px;
+}
+
+.triangle {
+  fill: #ee2560;
+}

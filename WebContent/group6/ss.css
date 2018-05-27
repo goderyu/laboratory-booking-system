@@ -1,0 +1,42 @@
+body,table,td,input,select,textarea{
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size:12px;
+}
+
+h2.title{
+    font-family: 微软雅黑;
+    font-weight: bold;
+    text-align: center;
+    color: #424242;
+}
+
+table.default{
+    border:1px solid #ffffff;
+    border-collapse:collapse;
+    width:100%;
+}
+
+table.default td.item{
+  /*  font-weight: bold; 粗体*/
+    color: #080809;
+    text-align: left;
+    vertical-align: top; /*垂直对齐文本的顶部*/
+    padding: 10pt;
+}
+
+table.default td{
+    padding:2px 5px 2px 5px;/*上 右 下 左的内边距*/
+    height：26px;
+    border:1px solid #8b8b8b; /*边框线*/
+    background-color: #ffffff;
+}
+
+.btn{
+    font-size: 9pt;
+    color: #003399;
+    border:1px solid #93bee2;
+    background-color: #e8f4ff;
+    cursor:hand;
+    width:60px;
+    height:22px;
+}

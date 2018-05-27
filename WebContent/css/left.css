@@ -1,0 +1,41 @@
+
+#type,#commo,#user{
+	
+	background-repeat: repeat;
+	background-position: center center;
+	margin: 0px;
+	padding: 0px;
+	height: 25px;
+	width: 189px;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #00CCFF;
+	text-decoration: none;
+	text-align: left;
+	text-indent: 15px;
+	vertical-align: middle;
+	line-height: 25px;
+	cursor: hand;
+}
+
+#one,#two,#three {
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+	width: 189px;
+}
+#addtype,#showtype,#deletetype,#addexp,#delexp,#exportdate,#selexp,#upexp,#updatetype,#holidaytype,#timetype,#addcommo,#showcommo,#showform, #manager,#member,#addpublic,#showpublic,#addlinks,#showlinks {
+	background-image: url(image/main_sub.gif);
+	background-repeat: repeat;
+	background-position: center ;
+	margin: 0px;
+	padding: 0px;
+	height: 22px;
+	width: 189px;
+	line-height: 23px;
+	text-decoration: none;
+	text-align: left;
+	text-indent: 30px;
+}
+

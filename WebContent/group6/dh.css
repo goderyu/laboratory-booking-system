@@ -1,0 +1,37 @@
+#navigation
+{
+    margin-top:10px;
+    margin-left:10px;
+    width:160px;
+    font-family:Arial;
+}
+#navigation ul
+{
+    list-style-type:none; /* 不显示项目符号*/
+    margin:0px;
+    padding:0px;
+    text-decoration:none;
+}
+#navigation li
+{
+    border-bottom:1px solid #8b8b8b; /* 添加标签<li>的下划线*/
+}
+#navigation li a
+{
+    display:block; /* 区块显示*/
+    padding: 5px 5px 1em;
+    text-decoration:none;
+    border-left:12px solid #cecedb; /* 左边的粗边*/
+    border-right:1px solid #ffffff; /* 右侧阴影*/
+}
+#navigation li a:link,#navigation li a:visited /* 超链接正常状态、被访问过的状态*/
+{
+    background-color: #ffffff; /* 设置背景色*/
+    color: #000000; /* 设置文字颜色*/
+}
+#navigation li a:hover /*鼠标经过时*/
+{
+    background-color: rgba(220, 220, 233, 0.6); /* 改变背景色*/
+    opacity: 0.9;
+    /*   color: #000000; /* 改变文字颜色*/
+}

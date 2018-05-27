@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="js/left.js"></script>
+<link href="css/left.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+a:link{
+text-decoration:none;
+color:black;
+}
+a:hover{
+  color:red;
+  font-weight:bold;
+}
+
+a:active{
+  color:blue;
+}
+#left{
+  position:absolute;
+  right:10%;
+  top:10%;
+  
+}
+body{
+      background: url(image/back.jpg) no-repeat;
+
+}
+
+
+</style>
+</head>
+<body>
+<div id="left">
+<div id="type"  onclick="javascript:change(one,type);">实验室管理</div>
+<div id="one">
+<div id="addtype" ><a href="group2/insert.jsp" target="mainFrame"  class="menu">添加实验室</a></div>
+<div id="showtype" ><a href="group2/list.jsp" target="mainFrame" class="menu">查看实验室</a></div>
+<div id="timetype" ><a href="group3/LabCloseSetting.jsp" target="mainFrame" class="menu">设置实验室关闭时间</a></div>
+</div>
+<div id="commo"  onclick="change(two,commo)">数据管理</div>
+<div id="two" style="display:none;">
+<div id="addcommo" ><a href="group5/tomysql.jsp" target="mainFrame" class="menu">教师用户导入</a></div>
+<div id="showcommo" ><a href="group8/import.jsp" target="mainFrame" class="menu">教师课表导入</a></div>
+<div id="showform" ><a href="group6/find.jsp" target="mainFrame" class="menu">查询浏览</a></div>
+<div id="exportdate" ><a href="group7/index.jsp" target="mainFrame" class="menu">实验安排导出</a></div>
+</div>
+
+<div id="user" align="center" onclick="change(three,user)">预约实验</div>
+<div id="three" style="display:none;">
+<div id="addexp" ><a href="group4/AddClass.jsp" target="mainFrame" class="menu">实验添加</a></div>
+<div id="delexp" ><a href="group4/deleteOrderRecord.jsp" target="mainFrame" class="menu">实验删除</a></div>
+<div id="upexp" ><a href="group4/updateOrderRecord.jsp" target="mainFrame" class="menu">实验修改</a></div>
+<div id="selexp" ><a href="group4/SearchCourse.jsp" target="mainFrame" class="menu">实验查询</a></div>
+</div>
+</div>
+
+</body>
+</html>
